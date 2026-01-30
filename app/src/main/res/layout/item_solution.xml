@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvLinee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Linee"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTariffa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tariffa"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvVia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Via"
+        android:textSize="13sp" />
+</LinearLayout>
